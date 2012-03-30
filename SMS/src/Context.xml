@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+
+
+<bean id="student1" class="sms.Student" p:firstName= "Kaushi" p:lastName= "Bandara" p:regNumber= "1" p:address= "No 5, Kurunagala" > </bean>
+<bean id="student2" class="sms.Student" p:firstName= "Madhushi" p:lastName= "Bandara" p:regNumber= "2" p:address= "No 4,Kurunagala" > </bean>
+<bean id="student3" class="sms.Student" p:firstName= "Malathi" p:lastName= "Bandara" p:regNumber= "3" p:address= "No 78,Kurunagala" > </bean>
+
+
+</beans>
